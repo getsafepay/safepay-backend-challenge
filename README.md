@@ -141,6 +141,17 @@ The goal of this challenge is to iterate through the `asks` for each exchange an
 
 For example if we wished to purchase `0.5 BTC` then the lowest price would be from Binance at `$43928.77` since there is an offer to sell `0.52573000 BTC` at that price. However if we wished to purchase `1 BTC` then the lowest price would be `$47520` from Coinbase since Binance cannot fulfill an order of 1BTC on the order book above.
 
+If you make any assumptions, trade-offs or de-prioritise features for timeliness then please document these decisions. Your submission must have:
+
+- Instructions to run the code in a `README.md` file
+- Service configuration i.e. a formal mechanism for passing parameters that your service will need to start. For example, you may want to pass in the server port, any URLs, secret keys for APIs etc.
+- Unit tests to verify correctness of your submission
+- A modular and cohesive code structure with sensible separation of concerns
+- Appropriate handling for edge cases and errors
+- A commit history so that we know how your submission evolved (You may use [git bundle](https://www.git-scm.com/docs/git-bundle]))
+
+You need not worry about using a database or message queues for this submission. Keep it simple!
+
 ## Databases
 
 For the databases portion of the test, create a `/databases` folder.
